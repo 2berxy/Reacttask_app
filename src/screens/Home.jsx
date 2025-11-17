@@ -20,14 +20,14 @@ function Home() {
   const handletaskclick = () => {
 
     if (secretcode === '') {
-      swalalerts('Please Input Secret Code')
+      swalalerts('โปรดใส่โค๊ดลับ')
       return;
     }
     if (secretcode.toLowerCase() === 'sau') {
       window.location.href = '/showall'
     }
     else { 
-      swalalerts('Wrong/Invalid Input Code')
+      swalalerts('โค๊ดลับผิด')
       }
     }
 
